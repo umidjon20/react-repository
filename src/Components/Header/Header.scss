@@ -1,0 +1,30 @@
+header{
+    width: 100%;
+    color: var(--main--color);
+    .header__content{
+        
+        height: 7.18rem;
+        display: flex;
+        
+        background-color: rgb(216, 76, 52);
+     .header__navbar{
+        width: 100%;
+        background-color: aqua;
+        nav{
+            
+            ul{
+                list-style: none;
+                display: flex;
+                justify-content: space-around;
+                color: black;
+                font-size: 32px;
+                a{
+                    color: inherit;
+                    text-decoration: none;
+                }
+            }
+        }
+     }
+        
+    }
+}
