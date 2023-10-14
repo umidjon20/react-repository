@@ -63,20 +63,20 @@ export const  Header = ()=>{
                     <nav>
                         <ul>
                             <li>
-                              <Link to = {'/main/home'}>Home</Link>
+                              <Link to = {'/home'}>Home</Link>
                             </li>
                             <li>
-                            <Link to = {'/main/classes'}>Classes</Link>
+                            <Link to = {'/users'}>Users</Link>
                             </li>
                             <li>
-                            <Link to = {'/main/shop'}>Shop</Link>
+                            <Link to = {'/shop'}>Shop</Link>
                             </li>
                             <li>
-                            <Link to = {'/main/mycourses'}>My Courses</Link>
+                            <Link to = {'/mycourses'}>My Courses</Link>
                             </li>
                             
                             <li>
-                            <Link to = {'/main/contact'}>Contact</Link>
+                            <Link to = {'/contact'}>Contact</Link>
                             </li>
                         </ul>
                     </nav>

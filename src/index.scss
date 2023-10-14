@@ -7,9 +7,10 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  display: flex;
+  // display: flex;
   height: 100vh;
-  background-color: #000000;
+  background-color: #161928;
+  overflow: hidden;
 }
 #root {
   width: 100%;
@@ -31,6 +32,9 @@ h1{
   width: 100%;
   min-height: calc(100vh - 12.18rem);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 footer{
   width: 100%;
@@ -38,4 +42,77 @@ footer{
   background-color:rgb(21, 132, 196);
   text-align: center;
 }
+.todo{
+  width: 540px;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+label{
+  height: max-content;
+  margin: 0 auto;
+
+}
+button{
+  padding: 8px 15px;
+  border: none;
+  border-radius: 7px;
+  font-size: 1rem;
+  cursor: pointer;
+  color:#fff;
+  background-color: rgb(10, 143, 231);
+  &:hover{
+    background-color:rgb(72, 163, 11);
+  }
+}
+.input{
+  display: flex;
+  align-items: center;
+  column-gap:10px;
+}
+input[type = 'text']{
+  border-radius: 8px;
+  padding-left: 20px;
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  width: 400px;
+  height: 30px;
+  cursor: pointer;
+}
+.todo__list{
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  color:#fff;
+  font-size: 2rem;
+  list-style: none;
+}
+#check{
+  padding-right: 10px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+span{
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.page ul{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  row-gap:10px;
+  list-style: none;
+  color:#0b70f3;
+}
+h3{
+  color:#fff;
+}
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
 
